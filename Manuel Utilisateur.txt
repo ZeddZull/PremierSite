@@ -1,0 +1,34 @@
+Pour utilisation du projet:
+
+	/Projet/Modele/
+		infoCo.php => Information de connexion au serveur
+		BDD.sql => La base de données
+		BDDInsert.sql => Les insertion dans la base de données
+
+	/Projet/Vue/
+		style.css => Feuille de style gérant tout l'affichage
+		* => Les différentes vue
+
+	/Projet/Controleur/
+		* => Les fichier de controle
+		RequeteJS/
+			* => fichier php correspondant aux requetes JS
+
+	/Projet/JavaScript/
+		* => Les scripts Javascript
+		event* => Les scripts Javascript gérant les évenements
+
+	/Projet/Images
+		* => différentes images utilisé dans le site
+
+	/Projet/index.php => page principale gérant les redirections
+
+Fonctionnalités :
+	Administrateur du site : gestion des question/ questionnaire / thèmes
+	Tous les cope : repondre a des quesionnaire / géré ses informaions compte
+
+Amélioraion :
+	Affichage a amélioré avec la selection des thèmes notement
+	Administration des comptes par un super Admin
+	Des gaufres
+	

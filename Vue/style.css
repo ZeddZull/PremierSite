@@ -1,0 +1,165 @@
+
+/* Toutes les pages */
+html{
+	min-height:100%;
+}
+body{
+	display:flex;
+	flex-direction:column;
+	background-color:lightgray;
+	font-family:cursive;
+	color:black;
+	min-height:700px;
+	margin:0%;
+}
+body>header{
+	flex:3;
+}
+body>header>img{
+	width:100%;
+	height:100%;
+}
+body>nav{
+	flex:auto;
+}
+body>section{
+	flex:auto;
+	min-height:360px;
+}
+body>footer{
+	flex:auto;
+	color:#0044EE;
+}
+header>h1{
+	text-align:center;
+}
+
+body>nav, body>footer{
+	background-color:gray;
+}
+
+nav ul{
+	display:flex;
+	flex-flow:raw wrap;
+	padding:0% 5%;
+	margin:0%;
+	flex:1;
+}
+
+nav li{
+	flex:auto;
+	display:flex;
+	flex-direction:raw;
+	justify-content:center;
+	padding:1em 1%;
+}
+
+a{
+	color:#0044EE;
+	text-decoration:none;
+
+}
+
+aside a{
+	color:white;
+}
+
+body>section{
+	display:flex;
+	flex-flow:raw wrap;
+	background-image:url(http://www.agencele6.com/sites/default/files/actualites/e-penser.jpg);
+	background-repeat:repeat;
+}
+
+form {
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	padding-bottom:1em;
+}
+
+fieldset{
+	border-radius:20px;
+	margin-top:1em;
+	padding:1em 2em;
+	margin-bottom:0.5em;
+	color:black;
+	border-color:black;
+	background-color:lightgray;
+
+
+}
+
+table {
+	text-align:center;
+}
+s
+legend{
+	position:relative;
+	left:10px;
+}
+
+footer div{
+	margin:1em 25%;
+}
+
+section>nav{
+	background-color:#999999;
+}
+
+#contenue{
+	flex:7;
+}
+
+#contenue header{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+#contenue h2{
+	padding-left:25%;
+}
+aside{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	flex:2;
+	color:white;
+	background-color:#333333;
+}
+
+aside ul{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	padding:0%;
+}
+
+aside li{
+	list-style:none;
+}
+
+aside div{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+@media screen and (min-width: 640px){
+.petitEcran{
+	position:absolute;
+	left:-999px;
+	top:-999px;
+
+}
+}
+/* Affichage selon taille ecran */
+@media screen and (max-width: 640px) {
+.grandEcran{
+	position:absolute;
+	left:-999px;
+	top:-999px;
+}
+section{
+	flex-direction:column;
+}
+}
